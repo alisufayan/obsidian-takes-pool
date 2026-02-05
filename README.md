@@ -1,6 +1,7 @@
 **obsidian-takes-pool**
 
-**Why thi important to me and maby to you as well:**
+**Why this important to me and maby to you as well:**
+
 I write daily notes in Obsidian with a "Takes of the day" section random thoughts, insights, things I learned. But they were scattered across 100+ files.
 So I wrote this script to pull all those takes into one pool file. It handles multi-line takes, skips short stuff, and adds Obsidian links so I can trace back to the original day.
 
