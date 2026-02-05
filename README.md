@@ -14,7 +14,8 @@ So I wrote this script to pull all those takes into one pool file. It handles mu
 - Filters out hashtags and one-word bullets
 - Sorts chronologically
 - Appends `[[Day Month]]` links to each take
-** Important:** This APPENDS to the pool file. Clear it first to avoid dupes:
+
+**Important:** This APPENDS to the pool file. Clear it first to avoid dupes:
 ```bash
 truncate -s 0 "Daily Notes/The daily takes pool.md"
 Or just use this alias:
