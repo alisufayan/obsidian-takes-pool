@@ -5,6 +5,7 @@ I write daily notes in Obsidian with a "Takes of the day" section random thought
 So I wrote this script to pull all those takes into one pool file. It handles multi-line takes, skips short stuff, and adds Obsidian links so I can trace back to the original day.
 
 **Works on & Dependency:** Linux, Mac, Windows (uses standard Python + glob patterns)
+**Date formate must be:** Y/MM - MMMM/ddd DD MMM; 2026/02 - February/Thu 05 Feb
 
 
 **What it does:**
@@ -13,9 +14,6 @@ So I wrote this script to pull all those takes into one pool file. It handles mu
 - Filters out hashtags and one-word bullets
 - Sorts chronologically
 - Appends `[[Day Month]]` links to each take
-**File format it expects:**
-2024/06 - June/15 June.md
-2025/01 - January/03 January.md
 ** Important:** This APPENDS to the pool file. Clear it first to avoid dupes:
 ```bash
 truncate -s 0 "Daily Notes/The daily takes pool.md"
